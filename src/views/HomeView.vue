@@ -787,4 +787,13 @@ const goToCollection = (category: string) => {
     align-items: center;
   }
 }
+
+@media (max-width: 600px) {
+  .full-banner {
+    height: 180px;
+  }
+  .banner-image {
+    object-fit: contain;
+  }
+}
 </style>

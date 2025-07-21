@@ -435,7 +435,7 @@ onMounted(() => {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0;
 }
 
 /* Banner Section */
@@ -965,6 +965,15 @@ onMounted(() => {
 
   .traditional-patterns {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .page-banner {
+    height: 180px;
+  }
+  .page-banner-image {
+    object-fit: contain;
   }
 }
 </style>

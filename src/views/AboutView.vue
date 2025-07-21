@@ -249,7 +249,7 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0;
 }
 
 /* Banner Section */
@@ -660,6 +660,15 @@
   .owner-photo {
     width: 280px;
     height: 320px;
+  }
+}
+
+@media (max-width: 600px) {
+  .page-banner {
+    height: 180px;
+  }
+  .page-banner-image {
+    object-fit: contain;
   }
 }
 </style>
